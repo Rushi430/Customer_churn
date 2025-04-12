@@ -1,0 +1,64 @@
+body{
+    background-color:gold;
+    text-align: center;
+}
+
+#j {
+    width: 83px;
+    height: 33px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#j:hover{
+    background-color: rgb(201, 18, 18);
+}
+
+#a{
+    width: 83px;
+    height: 33px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#a:hover{
+    background-color:bisque;
+}
+
+#b{
+    width: 83px;
+    height: 33px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#b:hover{
+    background-color:blueviolet;
+}
+
+#c{
+    width: 83px;
+    height: 33px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#c:hover{
+    background-color:cadetblue;
+}
+#d{
+    width: 83px;
+    height: 33px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#d:hover{
+    background-color:chartreuse;
+}
+

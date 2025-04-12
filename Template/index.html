@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bank Customer Loan Prediction Model</title>
+    <link rel="stylesheet" href="/static file/style.css">
+</head>
+
+<body>
+    
+    <form action="" method="post">
+
+        <input type="text" placeholder="Age" name="Age" required="required" >
+        <input type="text" placeholder="Default" name="Default" required="required" >
+        <input type="text" placeholder="Balance" name="Balance" required="required">
+        <input type="text" placeholder="HHInsurance" name="HHInsurance" required="required">
+        <input type="text" placeholder="CarLoan" name="CarLoan" required="required">
+        <input type="text" placeholder="LastContactDay" name="LastContactDay" required="required">
+        <input type="text" placeholder="NoOfContacts" name="NoOfContacts" required="required">
+        <input type="text" placeholder="DaysPassed" name="DaysPassed" required="required">
+        <input type="text" placeholder="PrevAttempts" name="PrevAttempts" required="required">
+        
+        <h3>Job</h3>
+        <select name="Job" id="j" required="required">
+            <option value="0">management</option>
+            <option value="1">blue-collar</option>
+            <option value="2">technician</option>
+            <option value="3">admin</option>
+            <option value="4">services</option>
+            <option value="5">retired</option>
+            <option value="6">self-employed</option>
+            <option value="7">student</option>
+            <option value="8">unemployed</option>
+            <option value="9">entrepreneur</option>
+            <option value="10">housemaid</option>
+        </select>
+
+        <h3>Marital</h3>
+        <select name="Marital" id="a" required="required">
+            <option value="0">married</option>
+            <option value="1">single</option>
+            <option value="2">divorced</option>
+        </select>
+
+        <h3>Education</h3>
+        <select name="Education" id="b" required="required">
+            <option value="0">primary</option>
+            <option value="1">secondary</option>
+            <option value="2">tertiary</option>
+        </select>
+
+        <h3>Communication</h3>
+        <select name="Communication" id="c" required="required">
+            <option value="0">cellular</option>
+            <option value="1">telephone</option>
+        </select>
+
+        <h3>LastContactMonth</h3>
+        <select name="LastContactMonth" id="d" required="required">
+            <option value="0">jan</option>
+            <option value="1">feb</option>
+            <option value="2">mar</option>
+            <option value="3">apr</option>
+            <option value="4">may</option>
+            <option value="5">jun</option>
+            <option value="6">jul</option>
+            <option value="7">aug</option>
+            <option value="8">sep</option>
+            <option value="9">oct</option>
+            <option value="10">nov</option>
+            <option value="11">dec</option>
+        </select>
+
+        <br>
+        <br>
+        <button id="sub"  type="submit">Prediction</button>
+        <br>
+
+
+         
+    </form>
+ 
+    <br><br>
+
+</body>
+</html>
